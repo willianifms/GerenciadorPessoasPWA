@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: monospace;
 }
 
 html, .fullscreen {
@@ -12,9 +14,53 @@ html, .fullscreen {
 
 .container {
     margin: auto;
+    
 }
 
 .title {
+    text-align: center;
     font-size: 3rem;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 5%;
+}
+
+output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 5%;
+    padding: 10px;
+border-radius: 10px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #F5F5DC 0%, #E6E6CD 100%);
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+button:hover {
+    background-color: #555;
+}
