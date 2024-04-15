@@ -1,6 +1,6 @@
 #  Gerenciador de Pessoas PWA
 
-Este README descreve um aplicativo PWA completo para cadastro, listagem e exclusão de pessoas em um banco de dados local (IndexedDB). O aplicativo foi desenvolvido utilizando as seguintes tecnologias:
+Aplicativo PWA completo para cadastro, listagem e exclusão de pessoas em um banco de dados local (IndexedDB). O aplicativo foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Acesse o aplicativo [aqui](https://pwa-idb.vercel.app/).
 
